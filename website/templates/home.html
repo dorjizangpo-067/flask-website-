@@ -1,0 +1,45 @@
+{% extends 'index.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+
+<h1>My Projects</h1>
+<section class="d-flex justify-content-evenly mt-5 flex-wrap">
+    <div class="card m-3 " style="width: 18rem;">
+        <img src="{{ url_for('static', filename='images/project1.jpg') }}" height='300' class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">E-commers</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Website</a>
+        </div>
+    </div>
+
+    <div class="card m-3 " style="width: 18rem;">
+        <img src="{{ url_for('static', filename='images/project2.jpg') }}" height='300' class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Chatting</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Website</a>
+        </div>
+    </div>
+
+    <div class="card m-3 " style="width: 18rem;">
+        <img src="https://chriskirby.net/content/images/size/w1200/2024/02/AICodingAssistant.png" height='300' class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Chatting</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Website</a>
+        </div>
+    </div>
+
+    <div class="card m-3 " style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/1149529035/photo/this-looks-interesting.webp?s=1024x1024&w=is&k=20&c=MpRPPpgNCmmPHPWWSlIBPrcH7VZygmyUkmRqL6cui24=" height='300' class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Chatting</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">View Website</a>
+        </div>
+    </div>
+</section>
+{% endblock content %}

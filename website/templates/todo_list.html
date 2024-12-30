@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}Todo List{% endblock title %}
+
+{% block content %}
+<section class="d-flex justify-content-center w-100">
+    <form class="mt-5 w-50">
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" name='todos'>
+            <button type="submit" class="btn btn btn-primary">Add</button>
+          </div>
+    </form>
+</section>
+
+{% endblock content %}
